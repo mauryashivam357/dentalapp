@@ -1,0 +1,17 @@
+<!-- res/drawable/button_skip_background.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Default state -->
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" /> <!-- Set the background color -->
+            <corners android:radius="20dp" /> <!-- Adjust the corner radius as needed -->
+        </shape>
+    </item>
+    <!-- Pressed state -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/skip_button_pressed_background" /> <!-- Set the pressed background color -->
+            <corners android:radius="20dp" /> <!-- Adjust the corner radius as needed -->
+        </shape>
+    </item>
+</selector>

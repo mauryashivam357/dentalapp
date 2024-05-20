@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".Appointments">
+    <com.github.jhonnyx2012.horizontalpicker.HorizontalPicker
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.trinnguyen.SegmentView
+            android:id="@+id/segment1"
+            android:layout_width="385dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="1dp"
+            app:innerPadding="10dp"
+            app:numSegments="2"
+            app:selectedBackgroundColor="@color/purple_500"
+            app:selectedIndex="-1"
+            app:selectedTextColor="#FFFFFF"
+            app:separateLineColor="@color/purple_500"
+            app:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:unselectedBackgroundColor="@color/white" />
+    </LinearLayout>
+
+
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+</LinearLayout>

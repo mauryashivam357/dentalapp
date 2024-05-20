@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Notification"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+
+        android:fontFamily="sans-serif-light"
+        android:text="Receive Notifications"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="wrap_content">
+        <Switch
+            android:layout_width="351dp"
+            android:fontFamily="roboto"
+            android:layout_height="41dp"
+            android:id="@+id/enabled_push"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Enabled Push"
+            android:thumb="@drawable/ic_brightness_1_black_24dp"
+            android:track="@drawable/track_selector" />
+
+        <Switch
+            android:layout_width="351dp"
+            android:layout_height="41dp"
+            android:id="@+id/smsalert"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="SMS Alert"
+            android:thumb="@drawable/ic_brightness_1_black_24dp"
+            android:track="@drawable/track_selector" />
+
+        <Switch
+            android:layout_width="351dp"
+            android:layout_height="41dp"
+            android:id="@+id/emailalert"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Email Alert"
+            android:thumb="@drawable/ic_brightness_1_black_24dp"
+            android:track="@drawable/track_selector" />
+    </LinearLayout>
+
+</LinearLayout>

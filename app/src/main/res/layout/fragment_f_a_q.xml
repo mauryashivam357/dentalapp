@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".FAQ">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="General"
+
+            android:id="@+id/general"
+            android:fontFamily="@font/helvetica"
+            android:background="@drawable/faq_edit_button"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Dental implant"
+            android:id="@+id/dental_implant"
+
+            android:fontFamily="@font/helvetica"
+            android:background="@drawable/faq_edit_button"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="All on 4 Dental Implant"
+            android:id="@+id/all_dental"
+
+            android:fontFamily="@font/helvetica"
+            android:background="@drawable/faq_edit_button"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Single Tooth implant"
+
+            android:id="@+id/single_tooth"
+            android:fontFamily="@font/helvetica"
+            android:background="@drawable/faq_edit_button"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Dental crown"
+
+            android:id="@+id/dental_crown"
+            android:fontFamily="@font/helvetica"
+            android:background="@drawable/faq_edit_button"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Dental Bridge"
+            android:fontFamily="@font/helvetica"
+
+            android:id="@+id/dental_bridge"
+            android:background="@drawable/faq_edit_button"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Other"
+            android:fontFamily="@font/helvetica"
+            android:id="@+id/other"
+
+            android:background="@drawable/faq_edit_button"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

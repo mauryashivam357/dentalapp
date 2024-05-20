@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileFragment">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/man"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="John Wick"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/edit_text_border"
+        android:hint="John Wick"
+        android:padding="12dp"
+        android:lines="1"
+        android:paddingStart="10dp"
+        android:singleLine="true"
+        android:text="" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+        <RadioGroup
+            android:id="@+id/gender_radio_group"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/lable"
+                android:layout_width="104dp"
+                android:layout_height="48dp"
+                android:text="Gender"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/male_radio_button"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/female_radio_button"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="Female" />
+        </RadioGroup>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/selected_date_edit_text"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/edit_text_border"
+        android:hint="Date of birth"
+        android:padding="12dp"
+        android:lines="1"
+        android:drawableEnd="@drawable/baseline_arrow_drop_down_24"
+        android:textSize="18dp"
+        android:paddingStart="10dp"
+        android:singleLine="true"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+
+        android:background="@drawable/edit_text_border"
+        android:hint="Email"
+        android:padding="12dp"
+        android:inputType="textEmailAddress"
+        android:lines="1"
+        android:paddingStart="10dp"
+        android:singleLine="true"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/edit_text_border"
+        android:drawableEnd="@drawable/baseline_arrow_forward_ios_24"
+        android:hint="Password"
+        android:padding="12dp"
+        android:lines="1"
+        android:paddingStart="10dp"
+        android:singleLine="true"
+        android:text="" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/btn_shape_round"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white" />
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.navigation_drawer" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/doctor"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/doctor"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Navigation" >
+        <activity
+            android:name=".Dr_about"
+            android:theme="@style/CustomTheme"
+            android:exported="false" />
+        <activity
+            android:name=".Progress_Bar"
+            android:exported="false" />
+        <activity
+            android:name=".Logout"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NearestClinics"
+            android:exported="false"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".GeneralActivity"
+            android:exported="false"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".DentalImplant"
+            android:exported="false"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".AllDentalImplant"
+            android:exported="false"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".SingleToothimplant"
+            android:exported="false"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".DentalCrown"
+            android:exported="false"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".DentalBridge"
+            android:exported="false"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".OtherActivity"
+            android:exported="false"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".BookAppointment"
+            android:exported="false"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".AddPatientActivity"
+            android:exported="false"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".OtpVerification"
+            android:exported="false" />
+        <activity
+            android:name=".LoginAcount"
+            android:exported="false" />
+        <activity
+            android:name=".CreateProfile"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplaceActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".FeedbackFragment">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.trinnguyen.SegmentView
+        android:id="@+id/segment_2"
+        android:layout_width="385dp"
+        android:layout_height="51dp"
+
+        android:layout_marginTop="1dp"
+        app:innerPadding="10dp"
+        app:numSegments="3"
+        app:selectedBackgroundColor="@color/purple_200"
+        app:selectedIndex="-1"
+        app:selectedTextColor="#FFFFFF"
+        app:separateLineColor="#D6D6D9"
+        app:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:unselectedBackgroundColor="#FFFFFF"
+        app:unselectedTextColor="#7F7F7F" />
+</LinearLayout>
+    <GridView
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="10dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="10dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/feedback_text"
+
+        android:layout_width="match_parent"/>
+
+
+
+</LinearLayout>
+

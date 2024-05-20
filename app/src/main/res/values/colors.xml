@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#4CAF50</color>
+    <color name="colorAccent">#272626</color>
+    <color name="purple_200">#5e00d8</color>
+    <color name="blue_200">#4f84db</color>
+    <color name="teal_200">#FF03DAC5</color>
+
+    <color name="lighgrey">#989797</color>
+    <color name="underline">#D8D6D6</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="TEXT">#ED9A1E</color>
+    <color name="gray">#D59A9898</color>
+
+    <color name="green">#448748</color>
+
+    <color name="purple_500">#4CAF50</color>
+    <color name="purple_700">#4CAF50</color>
+    <color name="skip_button_background">#3498db</color> <!-- Set the background color -->
+    <color name="skip_button_pressed_background">#2980b9</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color> <!-- Set the pressed background color -->
+
+    <color name="dark_red">#5e00d8</color>
+</resources>

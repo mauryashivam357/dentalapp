@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="Widget.Theme.Navigation_Drawer.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.Theme.Navigation_Drawer.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+    <style name="NewFontStyle" parent="android:Widget.TextView">
+
+        <item name="android:fontFamily">@font/helvetica </item>
+
+    </style>
+
+</resources>

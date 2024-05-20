@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    tools:showIn="navigation_view">
+        <group
+            android:id="@+id/group1"
+
+            android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+     android:icon="@drawable/ic_baseline_home_24"
+            android:checked="true"
+            android:title="Home"
+            />
+
+        <item
+            android:id="@+id/appointments"
+            android:icon="@drawable/baseline_date_range_24"
+            android:title="Appointments" />
+        <item
+            android:id="@+id/services"
+            android:icon="@drawable/baseline_medical_services_24"
+            android:title="Services" />
+
+
+        <item
+            android:id="@+id/team"
+            android:icon="@drawable/teamivon"
+            android:title="Team" />
+
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/iconsfeedback"
+            android:title="Feedback" />
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about"
+            
+            android:title="About Us" />
+        <item
+            android:id="@+id/faq"
+           android:icon="@drawable/iconsfaq"
+
+            android:title="FAQ" />
+        <item
+            android:id="@+id/help_center"
+            android:icon="@drawable/iconshelp"
+            android:title="@string/help_center" />
+
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/baseline_settings_24"
+            android:title="Account Setting" />
+
+        </group>
+
+</menu>
